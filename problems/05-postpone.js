@@ -27,19 +27,7 @@ function postpone(cb, delay) {
     setTimeout(cb, delay)
   }
 }
-  // return function (cb, delay) {
-  //   return setTimeout(cb, delay)
-  // }
-// const sayHello = () => console.log('hi');
-// const slowHello = postpone(sayHello, 1000);
-// console.log(slowHello); // [Function]
-// slowHello(); // prints 'hi' after 1000 ms
 
-  // let interval = setInterval(function () {
-  //     cb();
-  //     amount--
-  //     if (amount === 0) clearInterval(interval)
-  // }, delay)
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {
